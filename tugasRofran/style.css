@@ -1,0 +1,61 @@
+/* header */
+header>h1 {
+    display: flex;
+    justify-content: center;
+}
+div{
+   display: inline;
+   width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: left;
+    /* width: 100%; */
+}
+nav>p{
+    padding-right: 15%;
+}
+
+nav>button{background-color: wheat;
+font-weight:bold;}
+
+section{
+    height: 40px;
+    /* background-color: lightgray; */
+}
+
+nav>button {
+    width: 100%;
+    margin-left: 3px;
+    }
+
+/* main */
+main{
+    margin-top: 10px;
+    /* background-color: beige; */
+}
+
+body{background-color: wheat;
+background-image: linear-gradient(white,wheat);
+background-repeat: repeat-x;}
+
+article{width: 50%;
+float: left;
+}
+/* background-color: lightgray;} */
+aside{
+    width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  /* background-color: lightgray; */
+}
+
+/* footer */
+footer>p{
+    display: inline-flex;
+    flex-direction: column;
+    
+}
