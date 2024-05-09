@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tugasRofran</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <h1 style="color:black;">tugasRofran</h1>
         
-            <nav><p>Logo</p>
+            <nav><img src="Assets/logo.png" style height="50px">
             <button>Beranda</button>
             <button>Profile</button>
             <button>Pelayanan</button>
@@ -23,28 +23,80 @@
     </header>
     <main>
         <section>
+            <h1>Inilah Main Body</h1>
+            <p style="margin-bottom: 10px;">main body dibagi menjadi 2 section<br>section pertama yaitu article dimana article memiliki 50% width dan 5 % margin kanan dan float kiri sedangkan section kedua yaitu aside memiliki width 40% dan margin kiri 5% dan float ke kanan</p>
             <article>
-               <!-- <form>
-<input type="text" placeholder="nama anda" id="name-input">
-<button id="submit">Kirim</button>
-<p id="errorName"></p>
-               </form> -->
-               <h1> hi <span id="nama"> opan</span>coba coba</h1>
-               <p>coba</p>
+               <h1 style="color:black;">form belajar</h1>
+               <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input placeholder="Nama" type="text" size="25"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input style="width: 200px;" type="date" size="35"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio" name="Laki-Laki" id="">Laki-Laki
+                        <input type="radio" name="Laki-Laki" id="">Perempuan</td>
+                </tr>
+                <tr>
+                    <td>Pesan</td>
+                    <td>:</td>
+                    <td><textarea placeholder="Pesan" name="" id="" cols="25" rows="5"></textarea></td>
+                </tr>
+                </table>
+                <button>submit</button>
+
              </article>
 
         
         <aside>
-            <h1>0panfredrik</h1>
-            <p>ini adalah profil game saya</p>
+            <h1>Slide Show</h1>
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="Assets/gbr1.jpeg" style="width:100%">
+                </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 2</div>
+                        <img src="Assets/gbr2.jpeg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+
+    <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="Assets/gbr1.jpeg" style="width:100%" onclick="currentSlide(1)" alt="skeleton">
+        </div>
+
+        <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="Assets/gbr2.jpeg" style="width:100%" onclick="currentSlide(2)" alt="kakasi">
+            </div>
+
+  </div>
+            </div>
+           
+           
         </aside>
     </section>
     </main>
-    <script src="script.js"></script>
+    <footer>
+        <p> Statistik pengunjung </p>
+            <img src="https://s01.flagcounter.com/mini/Gt8E/bg_FFFFFC/txt_000000/border_000000/flags_0/" alt="Flag Counter" border="0">
+    </footer>
+    
+
+    <script src="js/script.js"></script>
 </body>
-<footer>
-    <p> Statistik pengunjung <br> <br>
-        <img src="https://s01.flagcounter.com/mini/Gt8E/bg_FFFFFC/txt_000000/border_000000/flags_0/" alt="Flag Counter" border="0">
-        </p>
-</footer>
 </html>
